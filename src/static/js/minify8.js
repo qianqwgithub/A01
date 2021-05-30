@@ -1,0 +1,2 @@
+$(function(){Cases10Info();});function Cases10Info(){var wrap=$(".Cases10Info .info .tags")
+$("span",wrap).click(function(){$(this).addClass("active").siblings("span").removeClass("active")});var sl=$(".sl",wrap);$(".prev",sl).click(function(){var num=Number($(".b",sl).val());if(num<=1){layerAlert('不能小于1',-1,1000,0);return false;}else{$(".b",sl).val(num-1);}});$(".next",sl).click(function(){var num=Number($(".b",sl).val());if(num>=1000){layerAlert('不能大于1000',-1,1000,0);return false;}else{$(".b",sl).val(num+1);}});}

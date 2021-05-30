@@ -1,0 +1,46 @@
+.ztPage{overflow-x:hidden;overflow-y:hidden;min-width:1400px;background:#fff}.ztSec{position:relative;width:1400px;margin:0
+auto}.ztWrap{position:relative;width:1920px;margin-left:-260px}.ztCon{position:relative;width:1400px;margin:0
+auto;zoom:1}.ztCon:after{content:".";display:block;clear:both;height:0;font:0/0 sans-serif;visibility:hidden}.ztZhuCai{background-color:#fff}.ztTitle{margin-bottom:43px;text-align:center}.ztTitle
+h2{position:relative;display:inline-block;padding:0
+30px;line-height:52px;font-size:52px;color:#053e8e}.ztTitle h2
+span{font-weight:normal}.ztTitle h2:before,.ztTitle h2:after{content:"";display:inline-block;position:absolute;top:50%;z-index:2;width:150px;height:60px;margin-top:-30px;background:url(../image/public.png) -420px -90px no-repeat}.ztTitle h2:before{right:100%}.ztTitle h2:after{left:100%;background-position:-570px -90px}.secBanner{margin-bottom:55px}.secDingZhi{overflow:hidden;margin-bottom:55px}.secDingZhi
+.bd{overflow:visible}.secDingZhi .bd li
+.imgh{padding-top:23.87460317460317%}.secDingZhi .bd li
+.info{position:absolute;z-index:2;bottom:-85px;left:20px;width:520px;height:98px;padding:30px
+30px;background-color:rgba(51,51,51,.8)}.secDingZhi .bd li .info
+.title{margin-bottom:23px;line-height:18px;font-size:18px;color:#fff;font-family:"SourceHanSerifCN-Heavy","微软雅黑"}.secDingZhi .bd li .info
+.note{height:50px;line-height:25px;font-size:14px;color:#fff}.secDingZhi
+.sbtns{float:right;height:85px;margin-left:70px}.secDingZhi .sbtns
+a{margin-top:27.5px}.secDingZhi .sbtns .prev
+i{width:60px;background-position:-210px -120px}.secDingZhi .sbtns .prev:hover
+i{width:60px;background-position:-210px -150px}.secDingZhi .sbtns .next
+i{width:60px;background-position:-270px -120px}.secDingZhi .sbtns .next:hover
+i{width:60px;background-position:-270px -150px}.secDingZhi
+.hd{float:right}.secDingZhi .hd
+li{margin-right:18px}.secDingZhi .hd li
+a{line-height:85px;font-size:18px;color:#222}.secDingZhi .hd li.active
+a{line-height:79px;font-size:24px;color:#bba588;font-weight:bold;border-bottom:6px solid #bba588}.secFuCai{margin-bottom:20px}.secFuCai
+li{margin-bottom:46px}.secFuCai li
+.photo{float:right;width:840px;margin:0
+0 0 37px}.secFuCai li .photo
+.imgh{padding-top:41.66666666666667%}.secFuCai li.even
+.photo{float:left;margin:0
+37px 0 0}.secFuCai li
+.info{float:left;width:523px}.secFuCai li.even
+.info{float:right}.secFuCai li
+.info{margin-top:38px}.secFuCai li .info
+.line{float:left;width:8px;height:100%;margin-right:18px;background-color:#959595}.secFuCai li .info
+.classify{height:50px;line-height:36px;font-size:36px;color:#222}.secFuCai li .info
+.title{height:30px;line-height:28px;font-size:28px;color:#222}.secFuCai li .info
+.brand{float:right;width:309px;margin-top:-35px}.secFuCai li .info .brand
+.imgh{padding-top:46.60194174757282%}.secFuCai li .info .note
+p{position:relative;line-height:37px;font-size:14px;color:#666;text-indent:12px}.secFuCai li .info .note p
+span{position:absolute;top:0;left:-10px;color:#053e8e}.secOrder{height:90px;padding:115px
+0;background:url(../image/secOrder_bg.jpg) center no-repeat}.secOrder
+.ht{float:left;width:35%;line-height:45px;font-size:36px;font-weight:normal;color:#fff;text-align:center}.secOrder
+.form{float:right;width:600px}.secOrder .form
+.table{clear:none;float:left;width:auto;margin:0
+10px 10px 0}.secOrder .form .table
+.left{display:none}.secOrder .form .table .input-text{width:270px;height:40px;border:none;border-radius:100px;background-color:#fff;text-indent:40px}.secOrder .table .right:after{content:"";display:inline-block;width:30px;height:30px;position:absolute;z-index:2;top:5px;left:10px;background:url(../image/public.png) -600px -60px no-repeat}.secOrder .table.cls_area .right:after{background-position:-660px -60px}.secOrder .table.cls_phone .right:after{background-position:-630px -60px}.secOrder .form .cls_button .right:after{display:none}.secOrder .form .cls_button .right
+.button{width:286px;height:36px;line-height:36px;border:2px
+solid #fff;border-radius:100px;font-size:18px;color:#fff;background-color:#b4a078}

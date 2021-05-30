@@ -1,0 +1,12 @@
+$(function(){J_mdFullInd();function J_mdFullInd(){var wrap=$("#J_mdFullInd"),openMdFullInd=$("#openMdFullInd"),closeBtn=$(".closeBtn",wrap),submitBtn=$("#_phpok_submit",wrap),curShow=0,totalShow=2;var lImg=$(".lImg",wrap),lImgs=$(".imgs",lImg),lImgW=lImg.width(),lImgsLen=$(".imga",lImgs).length,lImgsCur=1;lImgs.css({"width":lImgW*lImgsLen});setTimeout(function(){lImgScroll();setInterval(function(){lImgScroll()},6*1000);},6*1000);function lImgScroll(){if(lImgsCur>=lImgsLen){lImgsCur=0;}
+lImgs.animate({"marginLeft":-lImgsCur*lImgW},500);lImgsCur++;}
+openMdFullInd.click(function(){openWrap()});closeBtn.click(function(){closeWrap()});if(wrap.hasClass("mdFullInd_outo")){setTimeout(function(){openWrap()},55*1000);}
+function openWrap(){wrap.css({"display":"block","visibility":"visible","top":"-100%"}).animate({"opacity":1,"top":"50%"},'slow')}
+function closeWrap(){wrap.animate({"opacity":0,"top":"-100%"},'slow',function(){wrap.css({"display":"none","visibility":"hidden"});})}
+var dstyle=$("#dstyle",wrap),dstyleVal=$(".dstyleVal",wrap),dstyleList=$(".dstyle-list",dstyleVal);dstyle.focus(function(){dstyleList.show();});$("i",dstyleList).click(function(){var _me=$(this);_me.addClass("cur").siblings("i").removeClass("cur");dstyle.val(_me.text());dstyleList.hide();});$(document).bind("click",function(e){if($(e.target).parents(".dstyleVal").length==0){dstyleList.hide();}});}});function J_mdFullInd_submit(ele){var form=$(ele),tomsg=$("#tomsg",form).val(),dstyle=$("#dstyle",form),house=$("#house",form),contact=$("#contact",form),phone=$("#phone",form),area=$("#area",form),btn=$("#_phpok_submit",form);if(btn.hasClass("disabled")){layerAlert('您已经提交过了，感谢您的支持！',6,2000);return false}
+if(!dstyle.val()&&dstyle.length){layerTips("请选择装修风格",dstyle);return false;}
+if(!house.val()&&house.length){layerTips("请填写楼盘名称",dstyle);return false;}
+if(!(/^\d+$/.test(area.val()))&&area.length){layerTips('面积只允许填写数字',area);return false;}
+if(!contact.val()&&contact.length){layerTips('请填写您的称呼',contact);return false;}
+if(!(/^1[2-9]\d{9}$/.test(phone.val()))){layerTips('手机号码未填写或填写错误',phone);return false;}
+layer.load(4,{time:5*1000});$.post(form.attr("action"),form.serialize(),function(data2){layer.closeAll();if(data2.msg==tomsg){var wrap=$("#J_mdFullInd"),openMdFullInd=$("#openMdFullInd");wrap.animate({"left":"-100%"},'slow',function(){wrap.css({"display":"none"});});layer.confirm(data2.msg,{title:'提示',btn:['知道了'],icon:1});btn.addClass("disabled");}else{layer.confirm(data2.msg,{title:'提示',btn:['知道了'],icon:7});}},"json");return false;}

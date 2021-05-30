@@ -1,0 +1,4 @@
+/* Minify: missing file 'tpl/www/images/swiper/swiper.jquery.min.js' */
+
+;$(function(){$(".ztPack li").hover(function(){$(this).addClass("hover")},function(){$(this).removeClass("hover")})
+$(".ztPack .secIndent .cls_addr").insertBefore($(".ztPack .secIndent .cls_button"));secDesign();function secDesign(){var wrap=$(".ztPack .secDesign"),bd=$(".bd",wrap),hd=$(".hd",wrap),prev=$(".prev",wrap),next=$(".next",wrap);var Slide=new Swiper(bd,{autoplay:4000,autoplayDisableOnInteraction:false,loop:true,prevButton:prev,nextButton:next,preventClicks:false,pagination:hd,paginationClickable:true,paginationElement:'span',bulletClass:'inline',bulletActiveClass:'active',});}})

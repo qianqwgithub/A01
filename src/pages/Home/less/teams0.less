@@ -1,0 +1,175 @@
+@teams0: teams0;
+#Teams0_0{
+  height:920px;
+  background-color:#202020;
+  .title-wrapper{
+    margin: 0 auto 0px;
+    .title-h1{
+      margin-bottom: 16px;
+      line-height: 36px;
+      font-size: 42px;
+      color: #bba588;
+      font-weight: normal;
+    }
+    div{
+      margin-bottom: 16px;
+      line-height: 14px;
+      font-size: 14px;
+      color: #484848;
+      letter-spacing: 15px
+    }
+  }
+  .content{
+    height:680px;
+    .text{
+      height:100%;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+    .name{
+      display:flex;
+      flex-direction:row;
+      justify-content:start;
+      align-items:center;
+      .userName{
+        font-size:30px;
+        color:white;
+      }
+      .cut{
+        font-size:18px;
+        color:#999999;
+        margin:0 5px;
+      }
+    }
+    .pose{
+      font-size:18px;
+      color:#999999;
+    }
+    .userButton{
+      width:180px;
+      height:50px;
+      background-color:#bba588;
+      font-size:16px;
+      color:white;
+      margin-top:80px;
+      border-radius:5px;
+      border:unset;
+    }
+    .image{
+      width:450px;
+      height:auto;
+    }
+    .images{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      .imageTop{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        .image1{
+          width:312px;
+          height:235px;
+        }
+      }
+    }
+    .image2{
+      width:100%;
+      height:386px;
+    }
+  }
+  .teams0{
+    max-width:1920px;
+  }
+  .banner-anim{
+    max-width:1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .prev{
+      left: 0;
+    }
+    .banner-anim-elem{
+      max-width: 1400px;
+    }
+  }
+}
+.@{teams0}-wrapper {
+  height: 450px;
+  .@{teams0} {
+    padding:40px 24px 80px 24px;
+    display: flex;
+    align-items: flex-end;
+    .banner-anim {
+      width: 100%;
+      height: 100%;
+    }
+    .banner-anim-thumb {
+      span {
+        background: #e9e9e9;
+        box-shadow: none;
+        &.active {
+          background: @primary-color;
+        }
+      }
+    }
+    & .queue-anim-leaving {
+      position: relative !important;
+    }
+
+    &-banner-user-elem {
+      height: 100%;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    &-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      overflow: hidden;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 24px;
+      img {
+        height: 100%;
+      }
+    }
+    &-content {
+      font-size: 12px;
+      color: #919191;
+      text-align: center;
+      width: 80%;
+      margin: 8px auto;
+    }
+    &-h1 {
+      font-size: 24px;
+      text-align: center;
+      width: 80%;
+      margin: 24px auto 0;
+    }
+  }
+  .pose{
+    margin: 30px 0 20px 0;
+
+  }
+  .imageTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    margin-bottom:20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{teams0}-wrapper {
+    min-height: 480px;
+
+    .@{teams0} {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+@content5: content5;
+.@{content5}-wrapper {
+  .ant-row{
+    div:first-child{
+      img{
+        width:896px;
+        height: 330px;
+      }
+    }
+    .col{
+      display: flex;
+      flex-wrap: wrap;
+      img{
+        width: 425px;
+        height: 330px;
+        margin:10px 0;
+      }
+    }
+  }
+  // background-color: #fafafa;
+  min-height:unset;
+  background-image:url('https://qingfan1.oss-cn-hangzhou.aliyuncs.com/case-bg.png');
+  .@{content5} {
+    padding: 60px;
+    max-width:1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title-wrapper{
+      margin: 0 auto 0px;
+      h1{
+        margin-bottom: 16px;
+        line-height: 36px;
+        font-size: 42px;
+        color: #bba588;
+        font-weight: normal;
+      }
+      div{
+        margin-bottom: 16px;
+        line-height: 14px;
+        font-size: 14px;
+        color: #484848;
+        letter-spacing: 15px
+      }
+    }
+    >p {
+      text-align: center;
+    }
+    &-img-wrapper {
+      width:1400px;
+      height: unset;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      div[name='block0']{
+        width:900px;
+        height:340px;
+      }
+      .block {
+        width: 450px;
+        height: 340px;
+        margin-bottom: 24px;
+        .content5-block-content {
+          display: block;
+          background: #fff;
+          border-radius: 4px;
+          padding: 0px;
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          .page-pro();
+          border: none;
+          color: @text-color;
+          transition: box-shadow .3s @ease-out, transform .3s @ease-out;
+          & > span {
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: @line-color;
+            & > img{
+              width: 100%;
+              height: 100%;
+              padding:0;
+            }
+          }
+          & p {
+            width: 100%;
+            line-height: 30px;
+          }
+          &:hover {
+            & p {
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .ant-col-md-6 {
+      display: block;
+      flex: unset;
+      max-width: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{content5}-wrapper {
+    height: 2000px;
+    overflow: hidden;
+    .@{content5} {
+      ul {
+        li {
+          display: block;
+          width: 100%;
+          padding: 2%;
+          span {
+            height: 168px;
+          }
+          p {
+            position: relative;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

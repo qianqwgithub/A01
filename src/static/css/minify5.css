@@ -1,0 +1,144 @@
+.ztPage{overflow-x:hidden;overflow-y:hidden;min-width:1400px;background:#fff}.ztSec{position:relative;width:1400px;margin:0
+auto}.ztWrap{position:relative;width:1920px;margin-left:-260px}.ztCon{position:relative;width:1400px;margin:0
+auto;zoom:1}.ztCon:after{content:".";display:block;clear:both;height:0;font:0/0 sans-serif;visibility:hidden}.ztProcess{background-color:#fff}.ztTitle{margin-bottom:50px;text-align:center}.ztTitle
+h2{margin-bottom:19px;line-height:42px;font-size:42px;color:#222;font-weight:normal}.ztTitle h2
+span{margin-right:20px;font-weight:bold}.ztTitle
+.line{margin-bottom:18px}.ztTitle .line
+span{display:inline-block;width:72px;height:4px;background-color:#7ecef4}.ztTitle .line
+em{display:inline-block;width:72px;height:4px;background-color:#0068b7}.ztTitle
+p{line-height:24px;font-size:14px;color:#666}.ztTitle2
+h2{color:#fff}.ztTitle2
+p{color:#fff}.secBanner{margin-bottom:55px}.secYingHuan{margin-bottom:45px}.secProcess{margin-bottom:54px}.secProcess
+.bg{height:237px;padding:77px
+0 66px;background:url(../image/secProcess_bg.jpg) center no-repeat}.secProcess
+ul{margin-bottom:60px}.secProcess ul
+li{float:left;width:12.5%}.secProcess ul li
+.ico{width:50px;margin:0
+auto 25px}.secProcess ul li
+.title{margin-bottom:25px;line-height:18px;font-size:18px;color:#fff;font-weight:normal;text-align:center}.secProcess ul li
+.num{transform:translateX(70px)}.secProcess ul li .num
+span{float:left;display:inline-block;width:30px;height:30px;margin-right:14px;line-height:30px;text-align:center;;border-radius:100%;border:1px
+solid #fff;font-size:18px;color:#fff}.secProcess ul li .num
+i{width:104px;height:30px;background-position:-330px -150px}.secProcess ul .li_8 .num
+i{display:none}.secOrder{text-align:center}.secOrder
+.form{display:inline-block;width:auto;margin:0
+auto}.secOrder .form
+.table{clear:none;float:left;width:auto;margin:0
+10px 0 0}.secOrder .form .table
+.left{display:none}.secOrder .form .table .input-text{width:270px;height:40px;border:none;border-radius:100px;background-color:#fff;text-indent:40px}.secOrder .table .right:after{content:"";display:inline-block;width:30px;height:30px;position:absolute;z-index:2;top:5px;left:10px;background:url(../image/public.png) -600px -60px no-repeat}.secOrder .table.cls_area .right:after{background-position:-660px -60px}.secOrder .table.cls_phone .right:after{background-position:-630px -60px}.secOrder .form .cls_button .right:after{display:none}.secOrder .form .cls_button .right
+.button{width:286px;height:36px;line-height:36px;border:2px
+solid #fff;border-radius:100px;font-size:18px;color:#fff;background-color:rgba(0,104,183,.3)}.secElectrician{margin-bottom:45px}.secElectrician
+.hd{position:relative;margin-bottom:40px}.secElectrician .hd
+li{width:107px;margin-right:18px;text-align:center}.secElectrician .hd li
+.num{position:relative;z-index:3;width:60px;height:60px;margin:0
+auto 20px;border:1px
+solid #aaa;border-radius:100%;background-color:#fff;line-height:60px;font-size:32px;color:#0068b7}.secElectrician .hd li
+.title{height:36px;line-height:18px;font-size:14px;color:#222;font-weight:normal}.secElectrician .hd
+.line{position:absolute;z-index:2;left:0;right:0;top:30px;height:1px;background-color:#a0a0a0}.secElectrician .bd li
+.photo{width:853px;margin:0
+auto 24px}.secElectrician .bd li
+.title{font-size:18px;color:#222;text-align:center}.secElectrician .hd li.active .num,.secElectrician .hd li.hover
+.num{border-color:#0068b7;background-color:#0068b7;color:#fff}.secElectrician .bd
+li{cursor:pointer}.secElectrician .bd
+.sbtn{position:absolute;z-index:2;top:50%;margin-top:-15px}.secElectrician .bd
+.prev{left:165px}.secElectrician .bd
+.next{right:165px}.secElectrician .bd .prev
+i{width:60px;background-position:-210px -120px}.secElectrician .bd .next
+i{width:60px;background-position:-270px -120px}.secElectrician .bd .prev:hover
+i{width:60px;background-position:-210px -150px}.secElectrician .bd .next:hover
+i{width:60px;background-position:-270px -150px}.secWaterway{margin-bottom:50px;padding:45px
+0;background-color:#d1eaf5}.secWaterway
+li{float:left;width:300px;margin-right:66.6px;cursor:pointer}.secWaterway li
+.photo{margin-bottom:14px}.secWaterway li
+.imgh{padding-top:133.33333%}.secWaterway li
+.title{height:36px;line-height:18px;font-size:14px;color:#222;font-weight:normal;text-align:center}.secTieZhuang{margin-bottom:60px}.secTieZhuang
+.photo{float:left;width:760px;margin-right:60px}.secTieZhuang .photo
+.imgh{padding-top:35.52631578947368%}.secTieZhuang
+.info{overflow:hidden}.secTieZhuang .info
+.ht{margin:30px
+0 20px;font-size:24px;font-weight:normal;color:#0068b7}.secTieZhuang .info
+.note{line-height:36px;font-size:14px;color:#666}.secTieZhuang .info .note
+span{font-size:18px}.secDiaoDing{padding:45px
+0;margin-bottom:60px;background:url(../image/secDiaoDing_bg.jpg) center no-repeat;background-size:100% 100%}.secDiaoDing
+.bd{padding:110px
+0}.secDiaoDing .bd
+li{cursor:pointer}.secDiaoDing .bd li
+.photo{margin-bottom:20px}.secDiaoDing .bd li
+.title{display:none;margin-bottom:24px;font-size:14px;color:#fff;font-weight:normal;text-align:center}.secDiaoDing .bd
+li.active{transform:scale(1.6)}.secDiaoDing .bd li.active
+.title{display:block}.secDiaoDing .bd
+.sbtn{position:absolute;z-index:2;top:50%;left:50%;margin-top:-45px}.secDiaoDing .bd
+.prev{margin-left:-24%}.secDiaoDing .bd
+.next{margin-left:21%}.secDiaoDing .bd .prev
+i{width:60px;background-position:-210px -120px}.secDiaoDing .bd .next
+i{width:60px;background-position:-270px -120px}.secDiaoDing .bd .prev:hover
+i{width:60px;background-position:-210px -150px}.secDiaoDing .bd .next:hover
+i{width:60px;background-position:-270px -150px}.secDiaoDing
+.hd{text-align:center}.secDiaoDing .hd
+span{width:14px;height:4px;margin:0
+7px;background-color:#3c3f48}.secDiaoDing .hd
+span.active{width:42px;background-color:#6c6f74}.secFangShui{margin-bottom:60px}.secFangShui
+.ztCon{padding:80px
+40px;background-color:#d1eaf5}.secFangShui
+.photo{float:right;width:677px;margin-left:20px}.secFangShui .photo
+.imgh{padding-top:44.31314623338257%}.secFangShui
+.info{overflow:hidden;padding:20px
+14px;border:6px
+solid #7ecef4}.secFangShui .info
+.ht{margin:0
+0 21px;font-size:24px;font-weight:normal;color:#222}.secFangShui .info
+.note{line-height:33px;font-size:14px;color:#222}.secFangShui .info .note
+span{font-size:18px}.secRuJiaoQi{padding:45px
+0;margin-bottom:55px;background:url(../image/secRuJiaoQi_bg.jpg) center no-repeat;background-size:100% 100%}.secRuJiaoQi
+.bd{margin-bottom:27px}.secRuJiaoQi .bd
+li{float:left;width:20%}.secRuJiaoQi .bd li
+.box{margin:0
+23px;cursor:pointer}.secRuJiaoQi .bd li .photo
+.imgh{padding-top:106.628242074928%}.secRuJiaoQi .bd li
+.title{height:40px;padding:30px
+20px;line-height:20px;background-color:#214667;font-size:14px;color:#fff;text-align:center;font-weight:normal}.secRuJiaoQi
+.hd{text-align:center}.secRuJiaoQi .hd
+span{width:12px;height:4px;margin:0
+7.5px;background-color:rgba(255,255,255,.4)}.secRuJiaoQi .hd
+span.active{width:42px;background-color:rgba(255,255,255,.6)}.secQTFG{margin-bottom:60px}.secQTFG
+..ztCon{position:relative}.secQTFG
+.photo{width:100%}.secQTFG .photo
+.imgh{padding-top:23.85714285714286%}.secQTFG
+.info{position:absolute;z-index:2;right:35px;bottom:-18px;width:412px;height:140px;padding:35px
+30px;background-color:rgba(0,0,0,.5)}.secQTFG .info
+.ht{margin:0
+0 21px;font-size:24px;font-weight:normal;color:#fff}.secQTFG .info
+.note{line-height:33px;font-size:14px;color:#fff}.secQTFG .info .note
+span{font-size:18px}.secQiangTi{margin-bottom:48px;padding:45px
+0;background-color:#d1eaf5}.secQiangTi
+li{float:left;width:690px;margin:0
+20px 14px 0;cursor:pointer}.secQiangTi li
+.photo{float:right;width:560px}.secQiangTi li .photo
+.imgh{padding-top:41.07142857142857%}.secQiangTi li
+.title{overflow:hidden;width:auto;height:230px;padding:0
+30px;background-color:#fff;line-height:20px;font-size:14px;color:#222;font-weight:normal}.secXiaoYIn{margin-bottom:100px}.secXiaoYIn
+.ztCon{position:relative}.secXiaoYIn
+.photo{position:absolute;z-index:3;top:30px;right:0;width:852px}.secXiaoYIn .photo
+.imgh{padding-top:44.60093896713615%}.secXiaoYIn
+.info{width:370px;height:180px;;padding:90px
+90px 90px 140px;background:url(../image/secXiaoYInInfo_bg.jpg) center no-repeat}.secXiaoYIn .info
+.ht{margin:0
+0 21px;font-size:24px;font-weight:normal;color:#222}.secXiaoYIn .info
+.note{line-height:33px;font-size:14px;color:#222}.secXiaoYIn .info .note
+span{font-size:18px}.secXiuZheng{padding:45px
+0;background:url(../image/secXiuZheng_bg.jpg) center no-repeat;background-size:100% 100%}.secXiuZheng
+ul{margin-bottom:20px}.secXiuZheng ul
+li{float:left;width:322px;;margin-right:13px;cursor:pointer}.secXiuZheng ul li
+.imgh{padding-top:127.3291925465839%}.secXiuZheng ul
+.li1{width:729px}.secXiuZheng ul .li1
+.imgh{padding-top:56.24142661179698%}.secXiuZheng
+.note{line-height:20px;font-size:14px;color:#fff;text-align:center}.secBrand{padding:50px
+0 195px;background-color:#bee6f9}.secBrand
+.hd{position:relative;z-index:3}.secBrand .hd
+li{overflow:hidden;float:left;width:166px;margin-right:39.6px;border-radius:100%}.secBrand .hd li.active,.secBrand .hd
+li.hover{box-shadow:0 0 8px 0 #142c4187}.secBrand
+.bd{position:absolute;left:0;right:0;top:180px;width:100%;height:53px;margin-top:-60px;padding:80px
+0 40px;background-color:#214667;border-radius:20px}.secBrand .bd
+li{text-align:center}.secBrand .bd li
+.title{height:20px;margin-bottom:18px;line-height:18px;font-size:18px;color:#fff}.secBrand .bd li
+.note{height:16px;line-height:14px;font-size:14px;color:#fff}

@@ -1,0 +1,51 @@
+.ztPage{overflow-x:hidden;min-width:1400px}.ztSec{position:relative;width:1400px;margin:0
+auto}.ztWrap{position:relative;width:1920px;margin-left:-260px}.ztCon{position:relative;width:1400px;margin:0
+auto;zoom:1}.ztCon:after{content:".";display:block;clear:both;height:0;font:0/0 sans-serif;visibility:hidden}.ztPage
+.icon{background-image:url(../image/icon1.png)}.ztTitle{margin-bottom:40px;text-align:center}.ztTitle
+h2{margin-bottom:26px;line-height:42px;font-size:42px;color:#bba588;font-weight:normal}.ztTitle h2
+span{margin:0
+5px;color:#fff}.ztTitle h2
+small{font-size:36px;color:#fff;font-family:"Walkway-SemiBold";letter-spacing:3px}.secBanner{margin-bottom:60px}.secAbout{margin-bottom:50px;text-align:center}.secAbout
+.logo{width:321px;margin-bottom:45px}.secAbout
+.txt{margin-bottom:55px;line-height:29px;font-size:14px;color:#aaa}.secAbout
+.sofa{width:553px}.secCulture{margin-bottom:70px}.secCulture ul
+li{position:relative;float:left;width:324px;height:368px;margin:40px
+32px 0 0;border:1px
+solid #bba588;cursor:pointer}.secCulture ul li
+.box{position:absolute;top:-40px;left:37px;width:200px;height:270px;padding:55px
+25px;background:url(../image/secCultureLi_bg.jpg) center no-repeat;text-align:center}.secCulture ul li
+.num{margin-bottom:60px;line-height:54px;font-size:54px;color:#fff}.secCulture ul li
+.title{position:relative;z-index:0;height:30px;line-height:28px;font-size:28px;color:#fff;font-weight:normal}.secCulture ul li
+.subTit{margin:-10px 0 60px;line-height:30px;font-size:30px;color:#888;text-transform:uppercase;font-family:"Walkway-SemiBold";font-style:italic;font-weight:bold}.secCulture ul li
+.note{height:36px;line-height:18px;font-size:14px;color:#fff}.secHonour{margin-bottom:60px;padding:60px
+0 50px;background-color:#303030}.secHonour
+.bd{margin-bottom:55px}.secHonour .bd ul
+li{float:left;width:20%;cursor:pointer}.secHonour .bd ul li
+.box{margin:0
+20px}.secHonour .bd ul li
+.info{padding:35px
+0;border:1px
+solid #4e483c;border-radius:0 0 0 10px;border-top:none;text-align:center}.secHonour .bd ul li .info
+.near{margin-bottom:13px;line-height:24px;font-size:14px;color:#fff}.secHonour .bd ul li .info .near
+span{font-size:24px}.secHonour .bd ul li .info
+.title{font-size:18px;color:#fff}.secHonour
+.hd{text-align:center}.secHonour .hd
+span{width:11px;height:4px;margin:6.5px;background-color:#595959}.secHonour .hd
+span.active{width:42px;background-color:#838383}.secJob{margin-bottom:35px}.secJob
+li{float:left;width:665px;margin:0
+70px 45px 0}.secJob li
+.En{margin-bottom:15px;line-height:32px;font-size:32px;color:#333;font-weight:bolder;text-transform:uppercase}.secJob li
+.title{height:32px;padding-left:10px;margin-bottom:24px;border-left:8px solid #bba588;line-height:32px;color:#999;font-size:30px;font-family:"SourceHanSerifCN-Heavy","微软雅黑"}.secJob li
+.txtBox{height:120px;padding:35px
+20px 30px;background-color:#333334}.secJob li
+.txt{height:120px;line-height:24px;font-size:14px;color:#fff}.secJob li .txt
+.ht{margin-bottom:24px}.secContact{margin-bottom:80px}.secContact
+.baiduMap{margin-bottom:12px;overflow:hidden;width:100%;height:400px}.secContact .baiduMap
+img{max-width:none}.secContact
+.tags{padding:0
+20px;height:60px;line-height:60px;background-color:#3b3b3b}.secContact .tags
+.phone{float:left;margin-right:34px;font-size:14px;color:#999}.secContact .tags .phone
+span{font-size:18px;color:#bba588;font-family:"SourceHanSerifCN-Heavy","微软雅黑"}.secContact .tags
+.addr{float:left;font-size:14px;color:#999}.secContact .tags
+a{float:right;width:226px;height:36px;margin-top:10px;line-height:36px;text-align:center;;border:2px
+solid #fff;border-radius:100px;background-color:#60594d;font-size:18px;color:#fff;background-color:#60594d}

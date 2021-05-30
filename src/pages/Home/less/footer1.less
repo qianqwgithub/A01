@@ -1,0 +1,146 @@
+.footer1-wrapper {
+  background:#171717;
+  overflow: hidden;
+  position: relative;
+  min-height: 360px;
+  color: @template-footer-text-color;
+  .footer1 {
+    .home-page {
+      padding: 64px 24px 80px;
+      max-width:1400px !important;
+      div[name='block0']{
+        width: 500px;
+      }
+    }
+    .info{
+      position: absolute;
+      left: 56px;
+      top: 156px;
+      .phone{
+        display:flex;
+        flex-direction: row;
+        height: 30px;
+        margin-bottom: 25px;
+        line-height: 30px;
+        font-size: 24px;
+        color: #666;
+      }
+      .statistics{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        width:288px;
+        line-height: 14px;
+        color: #555;
+        font-size: 14px;
+        .number{
+          height: 25px;
+          color:#bba588;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .block {
+    padding: 0 32px;
+    .logo {
+      max-width: 180px;
+    }
+    .slogan {
+      font-size: 12px;
+      margin-top: -20px;
+    }
+    >h2 {
+      margin-bottom: 24px;
+      color: @template-text-color;
+    }
+    a {
+      color: @template-footer-text-color;
+      margin-bottom: 12px;
+      float: left;
+      clear: both;
+      &:hover {
+        color: @primary-color;
+      }
+    }
+  }
+  .copyright-wrapper {
+    width: 100%;
+    border-top: 1px solid fade(@line-color, 10);
+    .home-page {
+      padding: 0 24px;
+      overflow: hidden;
+    }
+    .copyright {
+      height: 80px;
+      text-align: center;
+      line-height: 80px;
+    }
+  }
+  .qrCode1{
+    position: relative;
+    top: -458px;
+    right: 250px;
+    float: right;
+    width:100px;
+    height:100px;
+  }
+  .qrCode2{
+    position: relative;
+    top: -458px;
+    right: 40px;
+    float: right;
+    width:100px;
+    height:100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer1 {
+    min-height: 550px;
+    &-wrapper {
+      .footer1 {
+        .home-page {
+          padding: 64px 24px 32px;
+        }
+      }
+    }
+    .logo {
+      margin: 0 auto 24px;
+    }
+    .block {
+      text-align: center;
+      margin-bottom: 32px;
+      padding: 0;
+    }
+    >ul {
+      width: 90%;
+      margin: 20px auto 0;
+      padding: 10px 0;
+      >li {
+        width: 100%;
+        h2 {
+          margin-bottom: 10px;
+        }
+        li {
+          display: inline-block;
+          margin-right: 10px;
+        }
+      }
+    }
+    .copyright {
+      &-wrapper {
+        .home-page {
+          padding: 0;
+          .copyright {
+            font-size: 12px;
+          }
+        }
+      }
+
+      span {
+        width: 90%;
+      }
+    }
+  }
+}

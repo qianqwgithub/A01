@@ -1,0 +1,110 @@
+@pricing2: pricing2;
+#Pricing1_2{
+  background-color:#202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  .title-wrapper{
+    margin: 0 auto 0px;
+    .title-h1{
+      margin-bottom: 16px;
+      line-height: 36px;
+      font-size: 42px;
+      color: #bba588;
+      font-weight: normal;
+    }
+    div{
+      margin-bottom: 16px;
+      line-height: 14px;
+      font-size: 14px;
+      color: #484848;
+      letter-spacing: 15px
+    }
+  }
+}
+.@{pricing2}-wrapper {
+  min-height: 600px;
+  .@{pricing2} {
+    >p {
+      text-align: center;
+    }
+    &-content-wrapper {
+      min-height: 400px;
+    }
+    &-block-box {
+      width: 260px;
+      border-radius: 4px;
+      background: #eef0f3;
+      text-align: center;
+      color: #666;
+      min-height: 400px;
+      margin: auto;
+      border: 1px solid transparent;
+      .page-pro();
+      &.active {
+        border-color: @primary-color;
+        background: #fff;
+        .@{pricing2} {
+          &-top-wrapper {
+            background: @primary-color;
+          }
+          &-name,
+          &-money,
+          &-button {
+            color: #fff;
+          }
+          &-button {
+            background: @primary-color;
+          }
+        }
+      }
+    }
+    &-block {
+      margin-bottom: 24px;
+    }
+    &-top-wrapper {
+      width: 100%;
+      padding: 16px 24px;
+    }
+    &-name {
+      font-size: 14px;
+    }
+    &-money {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 32px;
+      color: #666;
+    }
+    &-content {
+      font-size: 12px;
+      line-height: 2;
+      font-weight: 300;
+      margin: 32px 24px 48px;
+    }
+    &-line {
+      display: block;
+      height: 1px;
+      background: #d9d9d9;
+      margin: 0 24px;
+    }
+    &-button-wrapper {
+      margin: 18px 24px;
+    }
+    &-button {
+      padding: 0 24px;
+    }
+  }
+  &.home-page-wrapper {
+    .@{pricing2}-title-wrapper {
+      margin-bottom: 0px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{pricing2}-wrapper {
+    padding-bottom: 0;
+  }
+}
